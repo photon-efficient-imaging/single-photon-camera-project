@@ -40,10 +40,11 @@
 <p>
 Reconstructing a scene’s 3D structure and reflectivity accurately with an active imaging system operating in
 low-light-level conditions has wide-ranging applications, spanning biological imaging to remote sensing.
-Here we propose and experimentally demonstrate a depth and reflectivity imaging system with a single-photon
-camera that generates high-quality images from ~1 detected signal photon per pixel. Previous achievements of
-similar photon efficiency have been with conventional raster-scanning data collection using single-pixel photon
-counters capable of ~10-ps time tagging. In contrast, our camera’s detector array requires highly parallelized
+We propose and experimentally demonstrate a depth and reflectivity imaging system with a single-photon
+camera that generates high-quality images from ~1 detected signal photon per pixel.
+Previous achievements of similar photon efficiency have been with conventional raster-scanning data collection
+using single-pixel photon counters capable of ~10-ps time tagging.
+In contrast, our camera’s detector array requires highly parallelized
 time-to-digital conversions with photon time-tagging accuracy limited to ~ns. Thus, we develop an array-specific
 algorithm that converts coarsely time-binned photon detections to highly accurate scene depth and reflectivity by
 exploiting both the transverse smoothness and longitudinal sparsity of natural scenes. By overcoming the coarse
@@ -55,8 +56,9 @@ alt="result" align="middle" width="600">
 <br>
 
 <p>
-The figure above shows the result of each step of our proposed algorithm
-applied to the single-photon camera data with ~1 signal photon detection per pixel.
+For example, the figure above shows the step-by-step result our algorithm
+applied to the mannequin and sunflower scene data, acquired using
+the single-photon avalanche photodiode (SPAD) array detector.
 The final 3D and reflectivity result output by our algorithm reveals fine structure
 that was hidden in the sea of photons.
 
